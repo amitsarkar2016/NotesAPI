@@ -68,7 +68,6 @@ const getNotes = async (req, res) =>{
         res.status(500).json({message: "Something went wrong"});
     }
 }
-<<<<<<< HEAD
 const getAllNotes = async (req, res) =>{
     try {
         
@@ -80,19 +79,10 @@ const getAllNotes = async (req, res) =>{
         res.status(500).json({message: "Something went wrong"});
     }
 }
-=======
->>>>>>> 9dc0fe4406fd2f99aafb45c90346321134fd5e1d
-
 module.exports = {
     createNote,
     updateNote,
     deleteNote,
-<<<<<<< HEAD
     getNotes,
     getAllNotes
-=======
-    getNotes
->>>>>>> 9dc0fe4406fd2f99aafb45c90346321134fd5e1d
-}======
-    getNotes
->>>>>>> 9dc0fe4406fd2f99aafb45c90346321134fd5e1d
+}
